@@ -1,0 +1,13 @@
+train: ./train/images
+val: ./valid/images
+test: ./test/images
+
+nc: 4
+names: ['Mixed Waste -Black Bags-', 'Organic Waste -White Bags-', 'Others Waste', 'Recyclable Material -Grey Bags-']
+
+roboflow:
+  workspace: garbage-bag-detection
+  project: data-annotate-garbage-bags
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/garbage-bag-detection/data-annotate-garbage-bags/dataset/5
